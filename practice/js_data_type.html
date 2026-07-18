@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          //Data Types - 1
+          //1. String - "Anything between the double quotes" or "Text"
+          
+          var cust_Name='john'
+          //build in method/ Function-task
+          // typeof(value)
+          console.log(typeof(cust_Name))
+
+          //2. Number - +ve,-ve,decimal no
+          
+          var age =18
+          var num= -7.1
+          console.log(typeof(age))
+          console.log(typeof(num))
+
+          //3. Boolean - true or false
+          var login= true
+          var netflixSub=false
+          console.log(typeof(login))
+          console.log(typeof(netflixSub)) 
+
+          //4. undefined -when no value is assigned 
+          var x
+          console.log(typeof(x))
+
+          //5. null -nothing
+          var discount=null
+           // null and zero(0) are not the same in js . 
+           // Zero can be replaced but null means nothing
+          console.log(typeof(discount))
+
+          // due to the bug in javascript , Data tyoe of null it will show as object
+          
+          // Data type -2
+
+          // Multiple Value = Array- independent set of data's
+          // Symbol - [ ], here index no starts from zero
+          //Rule: Index no(Position no of data)
+
+          var stu=["harish", "thushar", 1234, true]
+          console.log(stu)
+
+          //Total no of data "variable_name.length"
+          console.log(stu.length)
+
+          //Access the data through Index no
+
+          console.log(stu[1])
+          console.log(stu[0])
+
+          
+          // object: Collection of Data
+          //Symbol: { } 
+          //Rule: key:value pair
+
+          var emp={
+            // key(left):value(right)
+            name:"DG",
+            email:'abc@gmail.com',
+            LoggedInStatus: true
+          }
+
+          console.log(emp)
+          // to view a paricular in an object we use below method
+          // objectname.keyname
+          console.log(emp.email)
+          console.log(emp.LoggedInStatus)
+
+          //Function - To do a Spcecific Task
+          //keyword - function fuctionname()
+
+          // task: Build BillCalculater
+
+          function BillCalculator(){
+
+            // body of the function - Instrucution/logic
+
+            var product1='Milk'
+            var product2='Bread'
+
+            var price1 = 50
+            var price2 = 100
+            
+            var total = price1 + price2
+            console.log("pantry:", product1 )
+            console.log("pantry:", product2)
+            console.log("Total Bill:", total)
+
+          }
+
+          // after writting the function we need to call it by the funcionname()
+          BillCalculator()  // like this we call the function
+
+
+          // Arithematic Operators -, +, *, /, %-modulo very imp (shows the remainder or output)
+
+          var a=30
+          var b=20
+
+          console.log(a+b)
+          console.log(a-b)
+          console.log(a/b)
+          console.log(a*b)
+
+         /* Remainder(%)
+         L>R
+          11 % 2 : remainder-1
+          12 % 3: rem-0
+         L<R
+          2 % 11: rem -2
+          1 % 7 : rem - 1 if left is less than right then the left will be the rem
+          */
+         
+          /* Even Number logic
+           2- even 2%2 =0
+           3- odd 3%2 = not zero
+           4- even 4%2 =0
+           5- odd 5%2 = not zero
+
+           even Number %2 =0
+           */
+
+           console.log(a%b)
+
+           // Assignment Operator - Help us to assign value by using equal to (=)
+
+           var x=10
+
+           //Assign and Operator
+           console.log(x+=2) 
+           console.log(x=x+2) // the above and this will give the same output we can use either way
+
+           // create a Function and find the sum od 1,2,3,4,5 without using link--h.w task
+
+           var arr=[1,2,3,4,5]
+           
+           console.log(arr)
+
+
+
+
+    
+
+
+           
+    </script>
+    
+</body>
+</html>
