@@ -1,0 +1,220 @@
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+}
+nav{
+    padding: 30px;
+    background-color: aqua;
+    color:black;
+}
+a{
+    margin:30px;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    border:1px solid black;
+    border-radius: 8px;
+    transition:0.6s;
+    padding: 10px 20px;
+}
+.navh{
+    margin-right: 20%;
+    display:inline-block;
+
+}
+
+/*----------------------------------------hero section---------------------------------------------*/
+
+#hero{
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/18323837/pexels-photo-18323837.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+ .title{
+    color:rgb(255, 255, 255);
+}
+.title button{
+     border: 1px solid black;
+     border-radius: 12px;
+     padding: 10px 20px;
+     margin-right: 50px;
+}
+.title button:hover{
+    border: 3px double rgb(20, 19, 19);
+    transition: 0.3s;
+    background-color: aqua;
+    text-transform: uppercase;
+    
+}
+
+/*-------------------------------------------------products and features-------------------------------------------*/
+
+#features{
+    padding:30px;
+    text-align: center;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+ .product{
+           
+            border: 1px solid black;
+            border-radius: 20px;
+           
+           text-align: center;
+           background-color: aqua;
+           padding: 20px;
+           width: 300px;
+           /* box-shadow: x-axis  y-axis  spread-radius  color */
+           box-shadow:      4px      4px        8px    black;
+          
+        }
+ .product h2{
+            border-bottom: 1px solid rgb(255, 253, 253);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+ .product img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+       }
+  .product:hover{
+        background:rgb(0, 0, 0);
+        color:white;
+        border: 2px double rgb(243, 237, 237);
+        transition: 0.5s;
+        
+        
+       }
+.product button{
+        border:none;
+        border-radius: 20px;
+        color:white;
+        background-color: darkorange;
+        padding: 30px;
+        width: 100%;
+       }
+ .product button:hover{
+        border: 2px double rgb(248, 245, 245);
+         transition:0.5s;
+       }
+    
+/*-------------------------------------------benifits-------------------------------*/
+#benifits{
+    padding:30px;
+    text-align: center;
+    background-color: azure;
+}
+#benifits .explain{
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     gap:20px;
+}
+#benifits .ben{
+    margin: 20px;
+    padding:30px;
+    height: 400px;
+    width:400px;
+    border:1px solid black;
+    border-radius: 12px;
+    text-align: center;
+}
+.photo{
+    width: 100%;
+    border-radius: 8px;
+}
+#benifits .ben:hover{
+    transition: 0.4s;
+    border: 2px double black;
+}
+/*------------------------------------------------review-------------------------------------------------------*/
+#review{
+    padding:30px;
+    text-align: center;
+
+}
+details{
+    text-decoration: solid;
+    text-transform: initial;
+}
+.rev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.cust{
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+/*-----------------------------------------------------pricing------------------------------------------------------*/
+#pricing{
+    padding: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#pricing .cost{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+#pricing .pr{
+    padding:50px;
+    border:1px solid black;
+    border-radius: 12px;
+}
+#pricing button{
+    padding: 10px 20px ;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 12px;
+
+}
+#pricing .pr:hover{
+    border: 1px double aqua;
+    transition: 0.4s;
+    transform:rotateX(360deg);
+    text-transform: uppercase;
+}
+
+/*---------------------------------------------------footer---------------------------------------------*/
+#footer{
+    padding: 30px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+   
+}
+#footer h2{
+    margin-right: 100px;
+
+}
+#footer .b{
+    display: flex;
+}
+
